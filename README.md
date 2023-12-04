@@ -13,7 +13,7 @@ Ein grosser Unterschied ist mir vorallem beim Umgang mit den Datums und Zeitform
 
 ## Image auf einem anderen Rechner ausführen
 Damit das von mir veröffentlichte Image verwendet werden kann, muss folgender Befehl ausgeführt werden:
-docker run -d -p 5432:1433 --name my-sql-container ghcr.io/BENUTZERNAME/REPOSITORY:TAG
+docker run -d -p 1433:1433 --name my-sql-container ghcr.io/VanessaHofer/Datenbank2-MSSQL:DB2
 
 
 ## Image Build
