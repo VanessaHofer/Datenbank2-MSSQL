@@ -11,9 +11,9 @@ https://github.com/horizoncrafts/docker-mssql-with-initdb
 Ein grosser Teil der Skripts musste nur minimal angepasst werden. 
 Ein grosser Unterschied ist mir vorallem beim Umgang mit den Datums und Zeitformaten aufgefallen, sowie beim erstellen und Berechtigen der Benutzer.
 
-## Image auf einem anderen Rechner ausführen
+## Image auf einem anderen Rechner ausführen (Ab Repo)
 Damit das von mir veröffentlichte Image verwendet werden kann, muss folgender Befehl ausgeführt werden:
-docker run -d -p 1433:1433 --name my-sql-container ghcr.io/VanessaHofer/Datenbank2-MSSQL:DB2
+docker run -d -p 1433:1433 --name my-sql-container ghcr.io/vanessahofer/datenbank2-mssql:db2
 
 
 ## Image Build
